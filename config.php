@@ -1,8 +1,8 @@
 <?php
 session_start();
-define('dbhost', 'localhost');
-define('dbuser', 'root');
-define('dbpass', 'sincosten');
+define('dbhost', 'dummyhost');
+define('dbuser', 'dummyuser');
+define('dbpass', 'dummypassword');
 define('dbname', 'pasteit');
 
 try {
