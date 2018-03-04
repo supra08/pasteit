@@ -1,0 +1,35 @@
+.pastecontent{
+  background:rgb(211, 221, 237);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 80vh;
+  margin-bottom: 4vh;
+}
+
+.pastecontent h1{
+  text-align: center;
+}
+.pastecontent h6{
+  text-align: right;
+}
+
+.jumbotron{
+  font-family: 'Rainbow';
+  text-align: center;
+  height: 15vh;
+  padding-top: 3vh;
+  background: url('../images/texture-back.jpg');
+}
+
+.jumbotron h6{
+  padding-top: 1.6vh;
+  font-size: 1.2em;
+}
+
+.btn{
+  margin-left: 1vw;
+}
+
+@font-face {
+  font-family: "Rainbow";
+  src: ('../fonts/rainbow.ttf');
+}

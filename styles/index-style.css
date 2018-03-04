@@ -1,0 +1,65 @@
+*{
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.btn{
+  width:10vw;
+}
+
+
+.jumbotron{
+  font-family: 'Raitons';
+  text-align: center;
+  height: 25vh;
+  padding: 0;
+  background: url('../images/texture-back.jpg');
+}
+
+h1{
+  font-size: 6em;
+}
+
+.pastecontent{
+  background:rgb(211, 221, 237);
+  margin-bottom: 2vh;
+  padding: 1vh 1vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tab{
+  border-radius: 0;
+
+}
+
+.submit{
+  margin-left: 7vw;
+}
+
+.recent{
+  margin-left: -25vw;
+}
+
+#register, #login{
+  padding-top: 2vh;
+  background:rgb(211, 221, 237);
+  margin-left: 6.5vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#register, #login h3{
+  text-align: center;
+}
+
+@font-face {
+  font-family: "Raitons";
+  src: ('../fonts/raitons.ttf');
+}
+
+.error-box h5
+{
+  color: red;
+  font-weight: bold;
+  font-size: 1em  ;
+  margin-left: 5vw;
+}

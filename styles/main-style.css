@@ -1,0 +1,61 @@
+*{
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+/* .mypastes{
+border-top: 1px solid rgb(3, 21, 51);
+background:rgb(211, 221, 237);
+margin-bottom: 2vh;
+padding-left: 1vh;
+} */
+
+.pastecontent{
+  background:rgb(211, 221, 237);
+  margin-bottom: 2vh;
+  margin-top: 4vh;
+  margin-left: 1vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.paste{
+  padding-top: 4vh;
+}
+
+.jumbotron{
+  font-family: 'Rainbow';
+  text-align: center;
+  height: 15vh;
+  padding-top: 3vh;
+  overflow-y: hidden;
+  background: url('../images/texture-back.jpg');
+}
+
+.jumbotron h6{
+  padding-top: 1vh;
+  font-size: 1.2em;
+}
+
+@font-face {
+  font-family: "Rainbow";
+  src: ('../fonts/rainbow.ttf');
+}
+
+.btn{
+
+}
+
+.paste{
+  background:rgb(211, 221, 237);
+}
+
+.delete-button input{
+  margin-left: 4vw;
+}
+
+.set-access{
+  background: rgb(211, 221, 237);
+}
+
+
+
+/*-------------------------------------------------------------------------------------*/

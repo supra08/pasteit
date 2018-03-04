@@ -1,0 +1,26 @@
+.pastecontent{
+  margin-top: 20vh;
+  background:rgb(211, 221, 237);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 60vh;
+  text-align: center;
+  padding: 25vh 10vw;
+  justify-content: space-around;
+}
+
+.jumbotron{
+  font-family: 'Rainbow';
+  text-align: center;
+  height: 15vh;
+  padding-top: 3vh;
+  background: url('../images/texture-back.jpg');
+}
+
+.jumbotron h6{
+  padding-top: 1.6vh;
+  font-size: 1.2em;
+}
+
+.btn{
+  margin-left: 1vw;
+}
